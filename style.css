@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* Banner styling */
+.banner {
+    width: 100%;
+    height: calc(100vh - 60px); /* Adjust height to account for navbar */
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+}
+
+.content {
+    text-align: left;
+    color: white;
+    padding: 20px;
+    background-color: transparent;
+    margin-left: -700px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+    max-width: 400px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: 'Gill Sans MT', serif;
+    background-color: transparent;
+    max-width: 600px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgb(0, 0, 0,);
+    width: 96%;
+    margin: auto;
+    height: 60px;  /* Fixed navbar height */
+    display: flex;
+    align-items: center;  /* Vertically center content */
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;  /* Ensures navbar stays on top */
+}
+
+/* Logo styling */
+.logo {
+    max-height: 40px;  /* Limit the logo's height */
+    width: auto;       /* Maintain aspect ratio */
+    cursor: pointer;
+}
+
+/* Navbar list items */
+.navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(230, 180, 0);
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: rgba(230, 180, 0, 0.2);
+    border-radius: 5px;
+}
+
+
